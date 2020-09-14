@@ -1,0 +1,9 @@
+body {
+	margin 5%;
+	background-image: url("stars.jpg");
+	Background-color: #FFFFFF;
+	background-size: cover;
+	font-size: 14px;
+	color: white;
+	font-weight: bold;
+}
