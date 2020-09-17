@@ -8,10 +8,10 @@ body {
 	font-weight: 500
 }
 table {
-	margin-top: 15%;
-  margin-bottom: 5%;
-  margin-right: 10%;
-  margin-left: 10%;
+	margin-top: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-left: auto;
   border: 3px white;
 	border-style: outset;
 	vertical-align: middle;
@@ -51,3 +51,22 @@ tbody, td {
 .jupiter {
 	color: darkorange;
 }
+.maintitle {
+	font-size: 25px;
+	color: white;
+	font-weight: 900;
+	display: flex;
+  justify-content: center;
+}
+.maintext {
+	font-size: 18px;
+	color: lightgray;
+	font-weight: 700;
+	display: flex;
+  justify-content: center;
+}
+.copyright {
+	text-align: center;
+	font-size: 12px;
+	color: white;
+	font-weight: 500
