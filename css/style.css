@@ -20,6 +20,7 @@ table {
 	border-radius: 10px;
 	position: relative;
 	background: black;
+	overflow-x:auto;
 }
 thead, th {
 	border-style: inset;
@@ -70,3 +71,4 @@ tbody, td {
 	font-size: 12px;
 	color: white;
 	font-weight: 500
+}
