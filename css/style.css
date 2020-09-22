@@ -1,4 +1,9 @@
+html {
+  font-size: 10px;
+  font-family: 'Roboto', sans-serif; 
+}
 body {
+	align-items:center;
 	align-content: center;
 	margin-top: auto;
   margin-bottom: auto;
@@ -12,6 +17,7 @@ body {
 	font-weight: 500
 }
 table {
+	align-items:center;
 	align-content: center;
 	margin-top: auto;
   margin-bottom: auto;
@@ -33,29 +39,34 @@ thead, th {
 	border: 2px white;
 	border-style: groove;
 	font-weight: 900;
-	font-size: 18px;
+	font-size: 20px;
 	padding: 4px;
 }
 tbody, td {
 	border-style: inset;
-	font-size: 14px;
 	font-weight: 600;
 	border-style: solid;
 	padding: 4px;
+	font-size: 14px;
 }
+.planetname {
+	font-size: 18px;
+}
+
 .titles {
 	color: lightslategray;
+	
 }
-.venus {
+#venus {
 	color: darkkhaki;
 }
-.earth {
+#earth {
 	color: deepskyblue;
 }
-.mars {
+#mars {
 	color: red;
 }
-.jupiter {
+#jupiter {
 	color: darkorange;
 }
 .maintitle {
