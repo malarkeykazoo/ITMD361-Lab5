@@ -54,7 +54,10 @@ tbody, td {
 	font-size: 18px;
 }
 .planetname {
+	text-decoration-line: underline;
+	text-decoration-style: double;
 	font-size: 22px;
+	padding: 2px;
 }
 
 .titles {
@@ -63,6 +66,7 @@ tbody, td {
 }
 #venus {
 	color: darkkhaki;
+  
 }
 #earth {
 	color: deepskyblue;
