@@ -1,11 +1,13 @@
 html {
   font-size: 10px;
   font-family: 'Roboto', sans-serif; 
+  display: flex;
 }
 body {
+  position: relative;
 	align-items:center;
 	align-content: center;
-	margin-top: auto;
+	margin-top: 20px;
   margin-bottom: auto;
   margin-right: auto;
   margin-left: auto;
@@ -16,6 +18,7 @@ body {
 	font-weight: 500
 }
 table {
+  position: relative;
 	align-items:center;
 	align-content: center;
 	margin-top: auto;
@@ -34,6 +37,7 @@ table {
 	overflow-x:auto;
 }
 thead, th {
+  border-radius: 10px;
 	border-style: inset;
 	border: 2px white;
 	border-style: groove;
@@ -42,6 +46,7 @@ thead, th {
 	padding: 4px;
 }
 tbody, td {
+  border-radius: 10px;
 	border-style: inset;
 	font-weight: 600;
 	border-style: solid;
@@ -91,7 +96,8 @@ tbody, td {
 	text-align: center;
 }
 .copyright {
-	text-align: center;
+  margin-top: 15px;
+  text-align: center;
 	font-size: 14px;
 	color: white;
 	justify-content: center;
@@ -99,3 +105,4 @@ tbody, td {
 	font-weight: 500
 	
 }
+
