@@ -5,108 +5,108 @@ html {
 }
 body {
   position: relative;
-	align-items:center;
-	align-content: center;
-	margin-top: 20px;
+  align-items:center;
+  align-content: center;
+  margin-top: 20px;
   margin-bottom: auto;
   margin-right: auto;
   margin-left: auto;
-	background-image: url("stars.jpg");
-	Background-color: #FFFFFF;
-	background-size: cover;
-	color: white;
-	font-weight: 500
+  background-image: url("stars.jpg");
+  Background-color: #FFFFFF;
+  background-size: cover;
+  color: white;
+  font-weight: 500
 }
 table {
   position: relative;
-	align-items:center;
-	align-content: center;
-	margin-top: auto;
+  align-items:center;
+  align-content: center;
+  margin-top: auto;
   margin-bottom: auto;
   margin-right: auto;
   margin-left: auto;
   border: 3px white;
-	border-style: outset;
-	vertical-align: middle;
-	text-align: center;
-	align-items:center;
-	padding: 4px;
-	border-radius: 10px;
-	position: relative;
-	background: black;
-	overflow-x:auto;
+  border-style: outset;
+  vertical-align: middle;
+  text-align: center;
+  align-items:center;
+  padding: 4px;
+  border-radius: 10px;
+  position: relative;
+  background: black;
+  overflow-x:auto;
 }
 thead, th {
   border-radius: 10px;
-	border-style: inset;
-	border: 2px white;
-	border-style: groove;
-	font-weight: 900;
-	font-size: 24px;
-	padding: 4px;
+  border-style: inset;
+  border: 2px white;
+  border-style: groove;
+  font-weight: 900;
+  font-size: 24px;
+  padding: 4px;
 }
 tbody, td {
   border-radius: 10px;
-	border-style: inset;
-	font-weight: 600;
-	border-style: solid;
-	padding: 4px;
-	font-size: 18px;
+  border-style: inset;
+  font-weight: 600;
+  border-style: solid;
+  padding: 4px;
+  font-size: 18px;
 }
 .planetname {
-	text-decoration-line: underline;
-	text-decoration-style: double;
-	font-size: 22px;
-	padding: 2px;
+  text-decoration-line: underline;
+  text-decoration-style: double;
+  font-size: 22px;
+  padding: 2px;
 }
 
 .titles {
-	color: lightslategray;
-	
+  color: lightslategray;
+  
 }
 #venus {
-	color: darkkhaki;
+  color: darkkhaki;
   
 }
 #earth {
-	color: deepskyblue;
+  color: deepskyblue;
 }
 #mars {
-	color: red;
+  color: red;
 }
 #jupiter {
-	color: darkorange;
+  color: darkorange;
 }
 .subtext {
-	font-size: 14px;
+  font-size: 14px;
 }
 .maintitle {
-	font-size: 30px;
-	color: white;
-	font-weight: 900;
-	display: flex;
+  font-size: 30px;
+  color: white;
+  font-weight: 900;
+  display: flex;
   justify-content: center;
-	align-items: center;
-	text-align: center;
-	align-content: center;
+  align-items: center;
+  text-align: center;
+  align-content: center;
 }
 .maintext {
-	font-size: 24px;
-	color: lightgray;
-	font-weight: 700;
-	display: flex;
+  font-size: 24px;
+  color: lightgray;
+  font-weight: 700;
+  display: flex;
   justify-content: center;
-	align-items: center;
-	text-align: center;
+  align-items: center;
+  text-align: center;
 }
 .copyright {
   margin-top: 15px;
   text-align: center;
-	font-size: 14px;
-	color: white;
-	justify-content: center;
-	align-items: center;
-	font-weight: 500
-	
+  font-size: 14px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500
+  
 }
 
