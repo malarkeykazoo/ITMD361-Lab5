@@ -2,6 +2,13 @@ html {
   font-size: 10px;
   font-family: 'Roboto', sans-serif; 
   display: flex;
+  line-height: 1;
+}
+img {
+align-self: center;
+max-width:100%;
+height: auto;
+border-radius: 10%;
 }
 body {
   position: relative;
@@ -35,7 +42,7 @@ table {
   position: relative;
   background: black;
   overflow-x:auto;
-}
+ }
 thead, th {
   border-radius: 10px;
   border-style: inset;
@@ -52,18 +59,10 @@ tbody, td {
   border-style: solid;
   padding: 4px;
   font-size: 18px;
-}
-.planetname {
-  text-decoration-line: underline;
-  text-decoration-style: double;
-  font-size: 22px;
-  padding: 2px;
+  width: auto;
+  height: auto;
 }
 
-.titles {
-  color: lightslategray;
-  
-}
 #venus {
   color: darkkhaki;
   
@@ -79,6 +78,7 @@ tbody, td {
 }
 .subtext {
   font-size: 14px;
+  font-variant: normal;
 }
 .maintitle {
   font-size: 30px;
@@ -107,6 +107,15 @@ tbody, td {
   justify-content: center;
   align-items: center;
   font-weight: 500
-  
+}
+.planetname {
+  text-decoration-line: underline;
+  text-decoration-style: double;
+  font-size: 22px;
+  padding: 2px;
 }
 
+.titles {
+  color: lightslategray;
+  font-variant: small-caps;
+}
