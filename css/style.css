@@ -5,10 +5,10 @@ html {
   line-height: 1;
 }
 img {
-align-self: center;
-max-width:100%;
-height: auto;
-border-radius: 10%;
+  align-self: center;
+  max-width:100%;
+  height: auto;
+  border-radius: 10%;
 }
 body {
   position: relative;
@@ -42,7 +42,7 @@ table {
   position: relative;
   background: black;
   overflow-x:auto;
- }
+}
 thead, th {
   border-radius: 10px;
   border-style: inset;
@@ -62,10 +62,8 @@ tbody, td {
   width: auto;
   height: auto;
 }
-
 #venus {
   color: darkkhaki;
-  
 }
 #earth {
   color: deepskyblue;
